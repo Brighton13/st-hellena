@@ -480,11 +480,6 @@ export default function Home() {
               <Link href="/donate" className="text-slate-700 hover:text-amber-600 transition-colors">
                 Donate
               </Link>
-              <Link href="/admin">
-                <Button variant="outline" size="sm">
-                  Admin
-                </Button>
-              </Link>
             </nav>
           </div>
         </div>
@@ -704,9 +699,8 @@ export default function Home() {
                   {masses.map((mass) => (
                     <Card
                       key={mass.id}
-                      className={`cursor-pointer transition-all hover:shadow-lg ${
-                        selectedMass.id === mass.id ? 'ring-2 ring-amber-500' : ''
-                      }`}
+                      className={`cursor-pointer transition-all hover:shadow-lg ${selectedMass.id === mass.id ? 'ring-2 ring-amber-500' : ''
+                        }`}
                       onClick={() => setSelectedMass(mass)}
                     >
                       <CardContent className="p-4">
