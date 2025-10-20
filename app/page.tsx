@@ -622,9 +622,9 @@ export default function Home() {
               {upcomingEvents.map((event) => (
                 <Card key={event.id} className="overflow-hidden shadow-md hover:shadow-lg transition-shadow">
                   {event.image_url && (
-                    <div className="h-48 bg-gradient-to-br from-amber-200 to-orange-300">
-                      <img src={event.image_url} alt="img-alt"/>
-                    </div>
+                    // <div className="h-48 bg-gradient-to-br from-amber-200 to-orange-300">
+                      <img src={event.image_url} alt="img-alt" className="h-25"/>
+                    // </div>
                   )}
                   <CardHeader>
                     <Badge className="w-fit mb-2">{event.category}</Badge>
