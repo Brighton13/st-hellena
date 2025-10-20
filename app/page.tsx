@@ -782,9 +782,9 @@ export default function Home() {
             <div>
               <h4 className="font-bold mb-4">Contact Us</h4>
               <div className="text-sm text-slate-400 space-y-2">
-                <p>123 Church Street</p>
-                <p>Your City, State 12345</p>
-                <p>Phone: (555) 123-4567</p>
+                <p>Off greg Lungu</p>
+                <p>Lusaka Zambia</p>
+                <p>Phone:  0973849272</p>
                 <p>Email: info@sthelenparish.org</p>
               </div>
             </div>
