@@ -37,7 +37,7 @@ export default function DonatePage() {
           amount: parseFloat(formData.amount),
           message: formData.message || null,
           status: 'completed',
-          currency: 'USD',
+          currency: 'ZMW',
         },
       ]);
 
