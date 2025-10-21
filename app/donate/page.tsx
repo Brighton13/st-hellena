@@ -147,7 +147,7 @@ export default function DonatePage() {
                 <div>
                   <Label htmlFor="amount">Or enter custom amount</Label>
                   <div className="relative mt-1">
-                    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500">$</span>
+                    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-500">ZMW</span>
                     <Input
                       id="amount"
                       type="number"
