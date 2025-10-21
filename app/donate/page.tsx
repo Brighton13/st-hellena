@@ -69,7 +69,7 @@ export default function DonatePage() {
               </div>
               <h2 className="text-3xl font-bold text-slate-900 mb-4">Thank You for Your Generosity!</h2>
               <p className="text-lg text-slate-600 mb-8">
-                Your donation of ${formData.amount} has been successfully recorded. May God bless you for your kindness and support of St. Helena Parish.
+                Your donation of ZMW{formData.amount} has been successfully recorded. May God bless you for your kindness and support of St. Helena Parish.
               </p>
               <div className="flex gap-4 justify-center">
                 <Link href="/">
@@ -140,7 +140,7 @@ export default function DonatePage() {
                       className="h-12"
                       onClick={() => setFormData({ ...formData, amount: String(amount) })}
                     >
-                      ${amount}
+                      ZMW {amount}
                     </Button>
                   ))}
                 </div>
