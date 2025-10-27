@@ -429,8 +429,8 @@ export default function Home() {
       .from('announcements')
       .select('*')
       .eq('is_active', true)
-      .order('priority', { ascending: false })
-      .order('created_at', { ascending: false })
+      .order('priority', { ascending: true })
+      .order('created_at', { ascending: true })
       .limit(3);
 
     const { data: eventsData } = await supabase
